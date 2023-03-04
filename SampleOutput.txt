@@ -1,0 +1,154 @@
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 0
+Enter Customer Name> John
+Enter Customer Address> Regina
+Enter Customer Age> 40
+Enter Customer Phone Number> 30633333
+Select:
+0: Senior
+1: Adult
+2: Student
+> 1
+Select:
+0: Checking
+1: Savings
+> 1
+Account: 0 Added
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 1
+Enter Account Number> 0
+Enter The Amount> 2000
+Enter the date yyyy-mm-dd> 2018-10-10
+Deposit in 0 amount: $2000.00 on 2018-10-10 new balance: $2000.00
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 3
+Enter Account Number> 0
+Account: 0
+Owner: John
+Type of customer: Adult
+Balance: $2000
+      DEP  2018-10-10  $ 2000.00  $ 2000.00
+
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 2
+Enter Account Number> 0
+Enter The Amount> 100
+Enter the date yyyy-mm-dd> 2020-10-10
+Withdraw from 0 amount: 100.00 on 2020-10-10 new balance: 2020.16
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 3
+Enter Account Number> 0
+Account: 0
+Owner: John
+Type of customer: Adult
+Balance: $2020.16
+      DEP  2018-10-10  $ 2000.00  $ 2000.00
+   INT CR  2020-10-10  $  120.16  $ 2120.16
+       WD  2020-10-10  $  100.00  $ 2020.16
+
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 0
+Enter Customer Name> Sara
+Enter Customer Address> Regina ave
+Enter Customer Age> 18
+Enter Customer Phone Number> 30644444
+Select:
+0: Senior
+1: Adult
+2: Student
+> 2
+Select:
+0: Checking
+1: Savings
+> 0
+Account: 1 Added
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 1
+Enter Account Number> 1
+Enter The Amount> 500
+Enter the date yyyy-mm-dd> 2018-10-11
+Deposit in 1 amount: $500.00 on 2018-10-11 new balance: $500.00
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 3
+Enter Account Number> 1
+Account: 1
+Owner: Sara
+Type of customer: Student
+Balance: $500
+      DEP  2018-10-11  $  500.00  $  500.00
+
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 2
+Enter Account Number> 1
+Enter The Amount> 100
+Enter the date yyyy-mm-dd> 2020-10-10
+Withdraw from 1 amount: 100.00 on 2020-10-10 new balance: 409.98
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+> 3
+Enter Account Number> 1
+Account: 1
+Owner: Sara
+Type of customer: Student
+Balance: $409.98
+      DEP  2018-10-11  $  500.00  $  500.00
+   INT CR  2020-10-10  $   10.00  $  510.00
+       WD  2020-10-10  $  100.00  $  410.00
+   CHKCHG  2020-10-10  $    0.02  $  409.98
+
+Select:
+0: Add Account
+1: Make Deposit
+2: Make Withdrawal
+3: Check Account
+4: Exit
+>

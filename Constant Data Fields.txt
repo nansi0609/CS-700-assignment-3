@@ -1,0 +1,17 @@
+const double Student::SAVINGS_INTEREST = 0.04; 		// annual rate
+const double Student::CHECKING_INTEREST = 0.01;		// annual rate. Yes! this is interest rate for the checking account.  
+const double Student::CHECK_CHARGE = 0.02; 			//cents for withdrawal
+const double Student::OVERDRAFT_PENALTY = 25.0; 	//dollar 
+---------------------------------------------------------------------------
+const double Senior::SAVINGS_INTEREST = 0.04;		// annual rate
+const double Senior::CHECKING_INTEREST = 0.01;      // annual rate. Yes! this is interest rate for the checking account.
+const double Senior::CHECK_CHARGE = 0.01;           //cents for withdrawal
+const double Senior::OVERDRAFT_PENALTY = 25.0;      //dollar
+---------------------------------------------------------------------------
+const double Adult::SAVINGS_INTEREST = 0.03;		// annual rate
+const double Adult::CHECKING_INTEREST = 0.01;       // annual rate. Yes! this is interest rate for the checking account.
+const double Adult::CHECK_CHARGE = 0.03;            //cents for withdrawal
+const double Adult::OVERDRAFT_PENALTY = 25.0;       //dollar
+
+1- If the balance of an account becomes negative for a withdrawal amount, the withdrawal operation will not be allowed and the customer will be charged by the OVERDRAFT_PENALTY.   
+2- Interest amount must be calculated and applied by using the annual rate and based on the number of days that the balance has been held. 
